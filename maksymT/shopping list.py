@@ -7,6 +7,7 @@ while sl != 5:
     if sl == 1:
          print(item, "added")
          list.append(item)
+         print("your current list is ", list)
     elif sl == 2:
         for n in list:
             print(n)
